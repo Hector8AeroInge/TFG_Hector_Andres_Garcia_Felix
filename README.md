@@ -1,6 +1,7 @@
 ## Sistema anticolisión cooperativo 3D entre tráficos UAVs
 
-En este repositorio se encuentra el código que conforma el sistema desarrollado en el TFG "Sistema anticolisión cooperativo 3D entre tráficos UAVs" hecho por Héctor Andrés García Félix
+En este repositorio se encuentra el código que conforma el sistema desarrollado en el TFG **"Sistema anticolisión cooperativo 3D entre tráficos UAVs"** 
+hecho por **Héctor Andrés García Félix**
 También se pueden encontrar materiales que complementan la lectura de la memoria y la comprensión del sistema en si.
 
 ## Licencia
