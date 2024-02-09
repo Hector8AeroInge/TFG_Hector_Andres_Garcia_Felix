@@ -16,7 +16,7 @@ El codigo se encuentra separado por tres bloques:
 · Interfaz grafica: Contiene el codigo y los archivos que conforman la interfaz grafica
 ## Algoritmo
 
-![Diagrama en blanco](https://github.com/Hector8AeroInge/TFG_Hector_Andres_Garcia_Felix/assets/114103584/9ae99785-6ba1-427a-9f40-c34d93d76f1e)
+![Diagrama en blanco (1)](https://github.com/Hector8AeroInge/TFG_Hector_Andres_Garcia_Felix/assets/114103584/bfedc670-7408-408b-a49a-6ce2244bd83d)
 
 ## Comunicaciones
 
