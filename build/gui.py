@@ -225,7 +225,7 @@ def start_simulation_button_click():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     build_folder_path = os.path.dirname(script_dir)
     AutopilotService_folder = os.path.join(build_folder_path, 'Swarm')
-    AutopilotService_filename = "AutopilotService_V_0_5.py"
+    AutopilotService_filename = "AutopilotService_V_1_0.py"
     py_file_path = os.path.join(AutopilotService_folder,AutopilotService_filename)
     print(py_file_path)
 
