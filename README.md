@@ -10,7 +10,7 @@ También se pueden encontrar materiales que complementan la lectura de la memori
 
 
 ## Introducción
-Para entender al completo el código es necesario consultar las definiciónes de los conceptos hechas en la memoria del trabajo
+Para entender al completo el código es necesario consultar las definiciónes de los conceptos hechas en la memoria del trabajo.
 
 Para empezar cabe ver la estructura de este proyecto:
 
@@ -18,11 +18,13 @@ Para empezar cabe ver la estructura de este proyecto:
 
 El código se encuentra separado por tres bloques:
 
-· El bloque del algoritmo: Contiene todo el código encargado de realizar los cálculos para evitar las colisiones
+· El bloque del algoritmo: Contiene todo el código encargado de realizar los cálculos para evitar las colisiones. Contenido en la carpeta "Algorithm".
 
-· El bloque de comunicaciones: Contiene todo el código que conforma la secuencia/portocolo de comunicaciones del sistema
+· El bloque de comunicaciones: Contiene todo el código que conforma la secuencia/portocolo de comunicaciones del sistema Contenido en la carpeta "Swarm".
 
-· Interfaz grafica: Contiene el código y los archivos que conforman la interfaz grafica
+· Interfaz grafica: Contiene el código y los archivos que conforman la interfaz grafica Contenido en la carpeta "build".
+
+En la carpeta "Others" se pueden encontrar codigo desarrollado para la propuesta presentada en el capítulo 8 de la memoria.
 
 ## Algoritmo
 
