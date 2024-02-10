@@ -16,10 +16,14 @@ Para empezar cabe ver la estructura de este proyecto:
 
 ![image](https://github.com/Hector8AeroInge/TFG_Hector_Andres_Garcia_Felix/assets/114103584/6487752d-c8e2-4c7b-87d2-d271eb627ef8)
 
-El codigo se encuentra separado por tres bloques:
-· El bloque del algoritmo: Contiene todo el codigo encrgado de realizar los cálculos para evitar las colisiones
-· El bloque de comunicaciones: Contiene todo el codigo que conforma la secuencia/portocolo de comunicaciones del sistema
-· Interfaz grafica: Contiene el codigo y los archivos que conforman la interfaz grafica
+El código se encuentra separado por tres bloques:
+
+· El bloque del algoritmo: Contiene todo el código encargado de realizar los cálculos para evitar las colisiones
+
+· El bloque de comunicaciones: Contiene todo el código que conforma la secuencia/portocolo de comunicaciones del sistema
+
+· Interfaz grafica: Contiene el código y los archivos que conforman la interfaz grafica
+
 ## Algoritmo
 
 ![Diagrama en blanco (1)](https://github.com/Hector8AeroInge/TFG_Hector_Andres_Garcia_Felix/assets/114103584/bfedc670-7408-408b-a49a-6ce2244bd83d)
