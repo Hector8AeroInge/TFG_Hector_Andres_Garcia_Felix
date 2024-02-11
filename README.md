@@ -35,4 +35,4 @@ En la carpeta "Others" se pueden encontrar codigo desarrollado para la propuesta
 
 
 ## Tutorial
-En este apartado se pretende explicar los pasos a seguir para poder usar el sistema de manera local
+En el siguiente enlace se puede encontrar un video en el cual se explica brevemente el codigo del proyecto y se explica como usar el sistema de manera local:
