@@ -26,12 +26,6 @@ El código se encuentra separado por tres bloques:
 
 En la carpeta "Others" se pueden encontrar codigo desarrollado para la propuesta presentada en el capítulo 8 de la memoria.
 
-## Algoritmo
-
-![Diagrama en blanco (1)](https://github.com/Hector8AeroInge/TFG_Hector_Andres_Garcia_Felix/assets/114103584/bfedc670-7408-408b-a49a-6ce2244bd83d)
-
-## Comunicaciones
-
 ## Interfaz gráfica
 
 ![image](https://github.com/Hector8AeroInge/TFG_Hector_Andres_Garcia_Felix/assets/114103584/82213f1b-aae8-415d-b491-3404d13433fd)
@@ -39,9 +33,6 @@ En la carpeta "Others" se pueden encontrar codigo desarrollado para la propuesta
 
 
 
-
-## Escenarios de ejemplo
-En este apartado se verán los escenarios usados como ejemplo en el Capítulo 7 de la memoria
 
 ## Tutorial
 En este apartado se pretende explicar los pasos a seguir para poder usar el sistema de manera local
