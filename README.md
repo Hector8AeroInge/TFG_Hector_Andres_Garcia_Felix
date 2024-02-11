@@ -24,7 +24,7 @@ El código se encuentra separado por tres bloques:
 
 · Interfaz grafica: Contiene el código y los archivos que conforman la interfaz grafica Contenido en la carpeta "build".
 
-En la carpeta "Others" se pueden encontrar codigo desarrollado para la propuesta presentada en el capítulo 8 de la memoria.
+En la carpeta "Others" se pueden encontrar codigo desarrollado para la propuesta presentada en el capítulo 8 de la memoria y otras funciones que no han acabdo formando parte de la implementación definitiva.
 
 ## Interfaz gráfica
 
