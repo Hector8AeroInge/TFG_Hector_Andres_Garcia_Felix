@@ -35,4 +35,5 @@ En la carpeta "Others" se pueden encontrar codigo desarrollado para la propuesta
 
 
 ## Tutorial
-En el siguiente enlace se puede encontrar un video en el cual se explica brevemente el codigo del proyecto y se explica como usar el sistema de manera local:
+En el siguiente enlace se puede encontrar un video en el cual se explica brevemente el codigo del proyecto y como usar el sistema de manera local:
+https://youtu.be/VGL5eIuqJyc
