@@ -31,7 +31,7 @@ import classes, Common_Functions, DrawingTools, Precheck_Functions, Secondary_Fu
 #excel_traces_generator.add_sheet_excel_traces(excel_file,file_route,"General")
 
 
-def simulate(traffics,walls,delta_t,safe_factor,log_traces_flag, nominal_functioning_flag,stop_event,droneId):
+def simulate(traffics,walls,delta_t,safe_factor,time_horizon,nominal_functioning_flag,stop_event,droneId):
     #*******************************************************************************************************************
     # Función principal del algoritmo. En esta función se ejecutan la secuencia de funciones que componen el algortimo
     # Esta será la función que ejecutarán los drones de manera local por tal de obtener una solución libre de conflictos
@@ -68,7 +68,7 @@ def simulate(traffics,walls,delta_t,safe_factor,log_traces_flag, nominal_functio
 
         if len(parallelRoutes) > 0:
 
-            RHO_Functions.solve_Parallel_Routes_RHO(parallelRoutes, delta_t,walls,safe_factor,conflicts,stop_event.is_set())
+            RHO_Functions.solve_Parallel_Routes_RHO(parallelRoutes, delta_t,walls,safe_factor,time_horizon,conflicts,stop_event.is_set())
 
         if nominal_functioning_flag == '0':
 

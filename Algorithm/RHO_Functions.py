@@ -113,7 +113,7 @@ def compute_heading(drone, neighbor_agents, delta_t, fences, safe_factor, t, con
     else: return np.array([0,0,0]) #Dron quieto
 
         
-def solve_Parallel_Routes_RHO(parallelRoutes,delta_t,walls,safe_factor, conflicts, stop_event):
+def solve_Parallel_Routes_RHO(parallelRoutes,delta_t,walls,safe_factor,time_horizon, conflicts, stop_event):
     #*************************************************************************************************************
     # Función que moverá los drones aplicando las correciones RHO hasta que los drones lleguen a su posición final
     #*************************************************************************************************************
@@ -127,7 +127,6 @@ def solve_Parallel_Routes_RHO(parallelRoutes,delta_t,walls,safe_factor, conflict
         drone.path = []
 
     t=0
-    time_horizon = 2
 
     # Bucle el cual recorrerá todos los drones moviendolos en funcion de las regulaciones calculadas en la iteración previa
     # hasta que todo hayan alcanzado el final de sus rutas

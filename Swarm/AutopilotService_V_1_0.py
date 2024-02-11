@@ -237,6 +237,7 @@ def simulate_function():
     global own_position
     global delta_t
     global safe_factor
+    global time_horizon
 
     print("****************INITIALIZING SIMULATION****************\n")
 
@@ -261,7 +262,7 @@ def simulate_function():
 
     external_client.publish(f"{droneId}/panel/simulationStarted", json.dumps(panel_trigger))
 
-    json_solution = main.simulate(traffic,[],delta_t,safe_factor,'1','1',principal_process_interruption,droneId)
+    json_solution = main.simulate(traffic,[],delta_t,safe_factor,time_horizon,'1',principal_process_interruption,droneId)
 
 
     if (json_solution) != 0 != -1 != -2 :
