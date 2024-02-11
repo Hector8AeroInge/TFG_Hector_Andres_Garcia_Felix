@@ -34,7 +34,8 @@ def get_telemetry_info ():
 
     global state
     global currentWaypoint
-
+    if 'currentWaypoint' not in globals():
+        currentWaypoint = "0"
     telemetry_info = {
         'id':  droneId,
         'lat': vehicle.location.global_frame.lat,
@@ -717,11 +718,13 @@ def process_message(message, client):
 
 
     if command == "DCASsolution":
-        
-        simulation_thread.join()
-
-        DCASsolution_thread = threading.Thread(target=DCASsolution_function,args=(message,))
-        DCASsolution_thread.start()
+        try:
+            simulation_thread.join()
+            DCASsolution_thread = threading.Thread(target=DCASsolution_function,args=(message,))
+            DCASsolution_thread.start()
+        except:
+            DCASsolution_thread = threading.Thread(target=DCASsolution_function,args=(message,))
+            DCASsolution_thread.start()
 
     if command == "Solution_confirmation":
         

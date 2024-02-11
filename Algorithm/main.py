@@ -68,7 +68,7 @@ def simulate(traffics,walls,delta_t,safe_factor,log_traces_flag, nominal_functio
 
         if len(parallelRoutes) > 0:
 
-            RHO_Definitive.solve_Parallel_Routes_RHO(parallelRoutes, delta_t,walls,safe_factor,conflicts,stop_event.is_set())
+            RHO_Functions.solve_Parallel_Routes_RHO(parallelRoutes, delta_t,walls,safe_factor,conflicts,stop_event.is_set())
 
         if nominal_functioning_flag == '0':
 
@@ -164,7 +164,7 @@ def simulate_panel(traffics,walls,delta_t,safe_factor,log_traces_flag, nominal_f
 
         if len(parallelRoutes) > 0:
 
-            RHO_Definitive.solve_Parallel_Routes_RHO(parallelRoutes, delta_t,walls,safe_factor,conflicts,stop_event.is_set())
+            RHO_Functions.solve_Parallel_Routes_RHO(parallelRoutes, delta_t,walls,safe_factor,conflicts,stop_event.is_set())
 
         if nominal_functioning_flag == '0':
 

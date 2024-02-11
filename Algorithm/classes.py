@@ -26,6 +26,13 @@ class Point:
         self.x = round(x,10)
         self.y = round(y,10)
         self.z = round(z,10)
+            
+    def __add__(self, other):
+        # Sobrecarga del operador de suma para puntos
+        return Point(self.x + other[0], self.y + other[1], self.z + other[2])
+    def __mul__(self, scalar):
+        # Multiplicación de un punto por un escalar
+        return Point(self.x * scalar, self.y * scalar, self.z * scalar)
 
     def distance_To_Closest_Segment(self, route):
         #***********************************************************************************
